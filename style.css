@@ -1,0 +1,28 @@
+/*
+
+Theme Name: wpbootstrap
+Theme URI: http://mytheme.dev
+
+Author : Deepak Dhiman
+Author URI: http://deepakdhiman.tk
+
+Description: This is a bootstrap to wordpress theme and a starter theme
+
+*/
+.navbar a {
+  color: #fff !important;
+  font-weight: 500 !important;
+  text-transform: uppercase; }
+
+
+.content {
+  margin: 20px 0; }
+  .content .svg-inline--fa {
+    font-size: 2rem; }
+  .content .main-content {
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    opacity: 0.8; }
+
+/*# sourceMappingURL=style.css.map */

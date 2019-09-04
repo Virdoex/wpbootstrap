@@ -1,0 +1,109 @@
+.navbar
+{
+	background:rgba(0,0,0,0.8) !important;
+}
+.blog
+{
+	h1
+	{
+		@media screen and (max-width:700px)
+		{
+			font-size:1.3rem;
+			font-weight:500;
+		}
+	}
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ 
+}
+.dropdown
+{
+	.dropdown-item
+	{
+		color:#111 !important;
+	}
+}
+.sidebar-module
+{
+	margin:0 1rem 1.3rem;
+	h4
+	{
+		color:rgba(0,0,0,0.8);
+		text-align:center;
+	}
+	li
+	{
+		list-style-type:none;
+		text-align:center;
+		a{
+			text-transform:uppercase;
+		}
+		a:hover
+		{
+			text-decoration:none;
+			cursor:pointer;
+		}
+	}
+}
+.post-gallery
+{
+
+	text-align:center;
+	display:block;
+}
+.hero
+{
+	
+	background-size: cover;
+	height: 400px;
+	color:#fff;
+	background-attachment: fixed;
+	@media screen and (max-width: 700px)
+	{
+		height:300px;
+	}
+	.hero-wrap
+	{
+		.caption
+		{
+			width: 100%;
+			max-width: 100%;
+			position: absolute;
+			bottom: 48%;
+			z-index: 1;
+			@media screen and (max-width: 700px)
+			{
+				bottom:18%;
+			}
+			h2
+			{
+				margin-bottom: 1rem;
+				@media screen and (max-width: 700px)
+				{
+					font-size:1.3rem;
+					font-weight: 300;
+				}
+				@media screen and (min-width: 700px)
+				{
+					margin-bottom: 2rem;
+				}
+			}
+			p
+			{
+				margin-bottom: 1rem;
+				@media screen and (min-width: 700px)
+				{
+					margin-bottom: 2rem;
+				}
+				@media screen and (max-width: 700px)
+				{
+					font-size:1rem;
+					font-weight: 200;
+				}	
+			}
+		}
+	}
+
+}
